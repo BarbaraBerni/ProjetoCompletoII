@@ -27,4 +27,4 @@ app.post("/eventos", (req, res) => {
   funcao[req.body.tipo](req.body.dados);
   res.status(200).send(pesquisa);
 });
-app.listen(3000, () => console.log("Consulta. Porta 3000"));
+app.listen(4000, () => console.log("Consulta. Porta 4000"));
